@@ -1,0 +1,104 @@
+@import url(./bootstrap.css);
+
+@font-face {
+    font-family: 'nunito-light';
+    src: url(../font/NunitoSans_10pt-Light.ttf);
+}
+@font-face {
+    font-family: 'nunito-bold';
+    src: url(../font/NunitoSans_10pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'light';
+    src: url(../font/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: 'medium';
+    src: url(../font/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(../font/Montserrat-Bold.ttf);
+}
+
+:root {
+    --blue-color: #239BD8;
+    --white-color: #FFFFFF;
+    --dark-gray-color: #434343;
+    --gray-color: #7C8DB0;
+    --light-gray-color: #dadada;
+    --green: #22C3A6;
+    --font-size: 62.5%;
+}
+
+html {
+    font-size: var(--font-size);
+}
+
+.navbar-nav {
+    width: 100%;
+    height: 14.3rem;
+    background-color: var(--blue-color);
+}
+
+
+.travel-icon {
+    gap: 1rem;
+    margin-left: 4.5%;
+}
+
+.travel-text {
+    color: var(--white-color);
+    font-family: 'light';
+    font-size: 4rem;
+}
+
+.search-box {
+   gap: 30rem;
+   
+   margin-left: 11%;
+}
+
+.search-text {
+    color: var(--white-color);
+    font-family: 'nunito-light';
+    font-size: 2rem;
+}
+
+.order-btn{
+    margin-left: 2%;
+}
+
+.order-text {
+    color: var(--white-color);
+    font-family: 'nunito-light';
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.flash-icon{
+    padding-left: 3%;
+}
+
+.profile-sec {
+    padding-top: 0.8rem;
+    gap: 2rem;
+    margin-left: 1%;
+}
+
+.name-text {
+    color: var(--white-color);
+    font-size: 2rem;
+    font-family: 'nunito-bold';
+}
+
+.profile-img {
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.side-bar {
+    margin-right: 1%;
+    margin-left: 3%;
+}
