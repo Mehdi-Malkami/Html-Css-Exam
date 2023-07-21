@@ -1,0 +1,181 @@
+@import url(./bootstrap.css);
+
+@font-face {
+    font-family: 'nunito-light';
+    src: url(../font/NunitoSans_10pt-Light.ttf);
+}
+@font-face {
+    font-family: 'nunito-bold';
+    src: url(../font/NunitoSans_10pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'light';
+    src: url(../font/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: 'medium';
+    src: url(../font/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'bold';
+    src: url(../font/Montserrat-Bold.ttf);
+}
+
+:root {
+    --blue-color: #239BD8;
+    --white-color: #FFFFFF;
+    --dark-gray-color: #434343;
+    --gray-color: #7C8DB0;
+    --light-gray-color: #dadada;
+    --green: #22C3A6;
+    --font-size: 62.5%;
+}
+
+html {
+    font-size: var(--font-size);
+}
+
+.navbar-nav {
+    width: 100%;
+    height: 14.3rem;
+    background-color: var(--blue-color);
+}
+
+
+.travel-icon {
+    gap: 1rem;
+    margin-left: 4.5%;
+}
+
+.travel-text {
+    color: var(--white-color);
+    font-family: 'light';
+    font-size: 4rem;
+}
+
+.search-box {
+   gap: 30rem;
+   
+   margin-left: 11%;
+}
+
+.search-text {
+    color: var(--white-color);
+    font-family: 'nunito-light';
+    font-size: 2rem;
+}
+
+.order-btn{
+    margin-left: 2%;
+}
+
+.order-text {
+    color: var(--white-color);
+    font-family: 'nunito-light';
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.flash-icon{
+    padding-left: 3%;
+}
+
+.profile-sec {
+    padding-top: 0.8rem;
+    gap: 2rem;
+    margin-left: 1%;
+}
+
+.name-text {
+    color: var(--white-color);
+    font-size: 2rem;
+    font-family: 'nunito-bold';
+}
+
+.side-bar {
+    margin-right: 1%;
+    margin-left: 3%;
+}
+
+
+.main-sec-of-peyment {
+    margin-top: 3rem;
+}
+
+.peyment-text {
+    margin-top: 3rem;
+}
+
+.h2-topic {
+    color: var(--blue-color);
+    font-size: 3rem;
+}
+
+.line {
+    margin-top: 3rem;
+    border: 2px solid var(--blue-color);
+    border-color: var(--blue-color);
+    width: 40rem;
+}
+
+.under-line {
+    margin-top: 3rem;
+    width: 55rem;
+    height: 7rem;
+}
+
+.under-line-text {
+    color: var(--blue-color);
+    font-size: 3rem;
+    line-height: 5rem
+}
+
+.recommend-title {
+    font-size: 2.7rem;
+    color: var(--dark-gray-color);
+    margin-top: 12rem;
+    margin-left: 8rem;
+}
+.boxes {
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    gap: 5rem;
+    
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    background: #F6F9FF;    
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05), 0px 24px 60px 0px rgba(106, 106, 106, 0.05), 0px 12px 24px 2px rgba(185, 185, 185, 0.05);
+}
+
+.card-title {
+    font-size: 2rem;
+    color: var(--green);
+}
+
+.card-text {
+    font-size: 1.3rem;
+    color: var(--dark-gray-color);
+    opacity: 80%;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.line-down {
+    margin-top: 30rem;
+    margin-left: 1.8rem;
+    border: 0.2px solid var(--light-gray-color);
+    width: 148rem;
+    opacity: 70%;
+}
+
+.last-text {
+    color: var(--light-gray-color);
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
