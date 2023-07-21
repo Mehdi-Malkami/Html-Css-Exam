@@ -93,12 +93,47 @@ html {
     font-family: 'nunito-bold';
 }
 
-.profile-img {
-    width: 7.5rem;
-    height: 7.5rem;
-}
-
 .side-bar {
     margin-right: 1%;
     margin-left: 3%;
+}
+
+
+.main-sec-of-peyment {
+    margin-top: 3rem;
+}
+
+.peyment-text {
+    margin-top: 3rem;
+}
+
+.h2-topic {
+    color: var(--blue-color);
+    font-size: 3rem;
+}
+
+.line {
+    margin-top: 3rem;
+    border: 2px solid var(--blue-color);
+    border-color: var(--blue-color);
+    width: 40rem;
+}
+
+.under-line {
+    margin-top: 3rem;
+    width: 55rem;
+    height: 7rem;
+}
+
+.under-line-text {
+    color: var(--blue-color);
+    font-size: 3rem;
+    line-height: 5rem
+}
+
+.recommend-title {
+    font-size: 2.7rem;
+    color: var(--dark-gray-color);
+    margin-top: 12rem;
+    margin-left: 8rem;
 }
