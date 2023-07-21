@@ -146,6 +146,8 @@ html {
 }
 
 .card {
+    max-width: 300px;
+    min-width: 200px;
     border: none;
     border-radius: 1rem;
     background: #F6F9FF;    
